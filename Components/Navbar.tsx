@@ -20,7 +20,11 @@ const Navbar = () => {
                         className='objext-contain'
                     />
                 </Link>
-                <Cu
+                <CustomButton
+                    title='Sign in'
+                    btnType='button'
+                    containerStyle='text-primary-blue rounded-full bg-white min-w-[130px]'
+                />
             </nav>
         </header>
     );

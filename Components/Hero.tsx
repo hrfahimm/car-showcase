@@ -1,7 +1,6 @@
 /** @format */
 "use client";
 import Image from "next/image";
-
 import { CustomButton } from ".";
 
 const Hero = () => {
@@ -18,9 +17,9 @@ const Hero = () => {
                 </p>
                 <CustomButton
                     title='Explore Car'
+                    btnType='button'
                     containerStyle=' bg-primary-blue text-white rounded-full mt-10'
-                    handleClick={handleScroll}
-                />
+                    handleClick={handleScroll}></CustomButton>
             </div>
             <div className='hero__image-container'>
                 <div className='hero__image'>
