@@ -1,6 +1,6 @@
 /** @format */
 
-import { Hero } from "@/Components";
+import { Hero, CustomFilter, SearchBar } from "@/Components";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,9 +17,12 @@ export default function Home() {
                         Eos, asperiores!
                     </p>
                 </div>
-                <div className="home__filters">
+                <div className='home__filters'>
                     <SearchBar />
-                    <div className="home__"></div>
+                    <div className='home__filter-container'>
+                        <CustomFilter title='fule' />
+                        <CustomFilter title='year' />
+                    </div>
                 </div>
             </div>
         </main>
